@@ -50,6 +50,7 @@ background-color: var(--softpink);
 .page-header{
     margin-top: 4vh;
     display: flex;
+    background-color: var(--softpink);
 }
 
 .navbar{
