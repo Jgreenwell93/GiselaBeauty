@@ -69,3 +69,10 @@ background-color: var(--softpink);
   height: 45vh;
   width: auto;
 }
+
+.landing-info{
+  background-color: var(--softpink);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
