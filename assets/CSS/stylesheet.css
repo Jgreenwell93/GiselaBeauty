@@ -50,35 +50,40 @@ body{
     
 }
 
+/* header adjustments */
 .page-header{
     margin-top: 4vh;
     display: flex;
     background-color: var(--softpink);
 }
 
+/* navbar stylings */
 .navbar{
     display: flex;
     justify-content: flex-end;
     font-size: 1.75rem;
 }
 
+/* individual navbar item stylings */
 .navitem{
     text-decoration: none;
     color: var(--solidpink);
     margin: 6vw;
 }
 
+/* landing page carousel sizing and position */
 .carousel{
   width: 90%;
  margin-left: auto;
  margin-right: auto;
 }
 
-
+/* carousel item sizing */
 .carousel-item{
   height: 45vh;
 }
 
+/* landing about information */
 .landing-info{
   background-color: var(--softpink);
   display: flex;
