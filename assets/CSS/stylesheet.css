@@ -4,9 +4,12 @@
     --softpink: #fdf6f6;
 }
 
-/* setting background color to soft pink */
+/* setting background color to soft pink both in the html and body */
 html{
 background-color: var(--softpink);
+}
+body{
+  background-color: var(--softpink);
 }
 
 /* Scrollbar stylings */
@@ -65,9 +68,15 @@ background-color: var(--softpink);
     margin: 6vw;
 }
 
+.carousel{
+  width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
 .carousel-item{
   height: 45vh;
-  width: auto;
 }
 
 .landing-info{
@@ -94,10 +103,11 @@ background-color: var(--softpink);
 
 /* contact form stylings */
 
-#contact-form{
+#contact-form1{
   display: flex;
   justify-content: center;
   margin-top: 2vh;
+  background-color: var(--softpink);
 }
 
 #fcf-form {
