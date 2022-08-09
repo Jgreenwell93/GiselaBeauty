@@ -76,3 +76,11 @@ background-color: var(--softpink);
   flex-direction: column;
   text-align: center;
 }
+
+footer{
+  background-color: var(--softpink);
+  text-align: center;
+}
+footer h1{
+  font-size: 1em;
+}
