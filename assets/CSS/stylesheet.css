@@ -43,7 +43,7 @@ body{
 
   /* globally adjust font color, style, margin, and weight */
 *{
-    color:black;
+    color:var(--solidpink);
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     margin: 0;
@@ -86,9 +86,23 @@ body{
 /* landing about information */
 .landing-info{
   background-color: var(--softpink);
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  font-size: 1.7em;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.hero1{
+display: flex;
+justify-content: center;
+}
+
+.hero-photo1{
+  height:27vw;
 }
 
 /* forms of contact positioning */
