@@ -4,9 +4,12 @@
     --softpink: #fdf6f6;
 }
 
-/* setting background color to soft pink */
+/* setting background color to soft pink both in the html and body */
 html{
 background-color: var(--softpink);
+}
+body{
+  background-color: var(--softpink);
 }
 
 /* Scrollbar stylings */
@@ -47,29 +50,40 @@ background-color: var(--softpink);
     
 }
 
+/* header adjustments */
 .page-header{
     margin-top: 4vh;
     display: flex;
     background-color: var(--softpink);
 }
 
+/* navbar stylings */
 .navbar{
     display: flex;
     justify-content: flex-end;
     font-size: 1.75rem;
 }
 
+/* individual navbar item stylings */
 .navitem{
     text-decoration: none;
     color: var(--solidpink);
     margin: 6vw;
 }
 
-.carousel-item{
-  height: 45vh;
-  width: auto;
+/* landing page carousel sizing and position */
+.carousel{
+  width: 90%;
+ margin-left: auto;
+ margin-right: auto;
 }
 
+/* carousel item sizing */
+.carousel-item{
+  height: 45vh;
+}
+
+/* landing about information */
 .landing-info{
   background-color: var(--softpink);
   display: flex;
@@ -94,10 +108,11 @@ background-color: var(--softpink);
 
 /* contact form stylings */
 
-#contact-form{
+#contact-form1{
   display: flex;
   justify-content: center;
   margin-top: 2vh;
+  background-color: var(--softpink);
 }
 
 #fcf-form {
