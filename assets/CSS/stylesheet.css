@@ -311,3 +311,20 @@ footer{
 footer h1{
   font-size: 1em;
 }
+
+/* media queries */
+
+/* medium-small */
+@media (max-width: 800px){
+
+}
+
+/* small */
+@media (max-width: 640px){
+
+}
+
+/* extra small */
+@media (max-width: 420px){
+  
+}
