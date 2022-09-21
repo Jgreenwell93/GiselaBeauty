@@ -54,13 +54,13 @@ body{
 .page-header{
     margin-top: 4vh;
     display: flex;
+    justify-content: space-between;
     background-color: var(--softpink);
 }
 
 /* navbar stylings */
 .navbar{
     display: flex;
-    justify-content: flex-end;
     font-size: 1.75rem;
 }
 
