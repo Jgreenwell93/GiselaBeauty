@@ -96,6 +96,7 @@ body{
   width:80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4vw;
   line-height: 2;
   font-size: 1.7em;
   display: flex;
@@ -316,15 +317,35 @@ footer h1{
 
 /* medium-small */
 @media (max-width: 800px){
-
+  .page-header{
+    flex-direction: column;
+  }
+  .hero-photo1{
+    height:40vw;
+  }
 }
 
 /* small */
 @media (max-width: 640px){
+  .hero-photo1{
+    height:45vw;
+  }
 
+  .landing-info{
+    margin-top: 0;
+  }
 }
+
 
 /* extra small */
-@media (max-width: 420px){
-  
+@media (max-width: 520px){
+  .navbar{
+    font-size: 2rem;
+    flex-direction: column;
 }
+
+.carousel-item{
+  height: 30vh;
+}
+}
+
