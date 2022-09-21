@@ -4,6 +4,12 @@
     --softpink: #fdf6f6;
 }
 
+/* adding in new font for flavor */
+@font-face{
+  font-family: 'greatvibes';
+  src: url('../CSS/Fonts/greatvibes-regular.ttf') format('truetype');
+}
+
 /* setting background color to soft pink both in the html and body */
 html{
 background-color: var(--softpink);
@@ -61,7 +67,7 @@ body{
 /* navbar stylings */
 .navbar{
     display: flex;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
 }
 
 /* individual navbar item stylings */
@@ -69,6 +75,7 @@ body{
     text-decoration: none;
     color: var(--solidpink);
     margin: 6vw;
+    font-family: 'greatvibes';
 }
 
 /* landing page carousel sizing and position */
